@@ -85,6 +85,4 @@ This mapping uses:
 - NS red/yellow/green: LD0/LD1/LD2
 - EW red/yellow/green: LD3/LD4/LD5
 
-The RTL reset is active-high. On the Nexys A7 slide switches, SW0 reads low when switched ON and high when switched OFF; therefore, with this exact mapping, keep SW0 OFF to hold reset and switch it ON to run. The LEDs are active-high.
 
-In Vivado, select the exact board variant/FPGA part printed on your board (Nexys A7-50T or Nexys A7-100T). The supplied pin mapping follows Digilent's Nexys A7 master XDC. Check the board revision and official master XDC before programming.
