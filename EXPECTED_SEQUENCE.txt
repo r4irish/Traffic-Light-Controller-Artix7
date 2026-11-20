@@ -1,0 +1,8 @@
+NS_GREEN  : ns_green=1, ew_red=1
+NS_YELLOW : ns_yellow=1, ew_red=1
+EW_GREEN  : ns_red=1, ew_green=1
+EW_YELLOW : ns_red=1, ew_yellow=1
+Repeat.
+
+starlink_status follows starlink_link. Remote requests are accepted only when
+starlink_link=1 and remote_mode=1, and only after MIN_GREEN_SECONDS.
