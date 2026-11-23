@@ -65,9 +65,6 @@ The testbench uses shortened timing values so that the full sequence can be chec
 | `ew_yellow` | Output | East-West yellow LED |
 | `ew_green` | Output | East-West green LED |
 
-## Important hardware note
-The XDC file is deliberately a template because Artix-7 boards use different FPGA packages and pin assignments. Obtain the master XDC for your exact board (for example, Basys 3 or Nexys A7) and map the six LED outputs, clock, and reset to the correct board pins before generating a bitstream.
-
 ## Tools
 - Verilog HDL
 - AMD/Xilinx Vivado Design Suite
